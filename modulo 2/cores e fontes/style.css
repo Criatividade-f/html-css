@@ -1,0 +1,45 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Cream';
+    src: url('Jhon Cream.otf') format('opentype'), url('Jhon Cream.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+
+body {
+    background-image: linear-gradient(to right, #8115B3, #63118A);
+}
+
+main {
+    box-shadow: 5px 5px 15px #280738;
+    border-radius: 1em;
+    background-color: white;
+    width: 600px;
+    padding: 1em;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Cream';
+    font-weight: normal;
+    font-size: 2.8em;
+    color: #420B5C;
+    text-align: center;
+    text-shadow: 1px 1px 0px #28073898;
+}
+
+h2 {
+    font-size: 1.7em;
+    color: #63118A;
+    font-family: cursive;
+}
+
+p {
+    text-align: justify;
+    color: black;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <title>Tags e suas funções</title>
+    </head>
+    <body>
+        <h1>Aqui eu irei colocar todas as tags que eu conhecer e pontuar os seus significados</h1>
+        <p>a tag &lt;br&gt; serve para criar uma quebra de linha <br>como eu estou fazendo agora </p>
+        <p>
+            a tag &lt;mark&gt; é basicamente um marca texto
+        </p>
+        <h2>texto sobrescritos</h2>
+            <p>x<sup>40</sup>+5</p>
+            <p>H<sub>2</sub>O</p>
+            <p><code>a tag &lt;code&gt; deixa o texto com uma fonte mono espaçada, ou seja todas as letras ocupam o mesmo espaço, como neste paragráfo por exemplo</code></p>
+            <pre> <!-- pre vai contar todo o espaçamento envolvido no código inclusive as identações de hierarquia (os espaçamentos laterais) -->
+                <code>
+                    num - int(input('digite um número'))
+                    if num % 2 == 0:
+                        print(f'0 número {num} é PAR')
+                    else:
+                        print(f'0 o número {num} é ÍMPAR')
+                        print{'Fim do programa'}
+                </code>
+            </pre>
+            <pre> <!-- pre vai contar todo o espaçamento envolvido no código inclusive as identações de hierarquia (os espaçamentos laterais) -->
+                <code>
+num - int(input('digite um número'))
+if num % 2 == 0:
+    print(f'0 número {num} é PAR')
+else:
+    print(f'0 o número {num} é ÍMPAR')
+    print{'Fim do programa'}
+                </code>
+            </pre>
+            <p>a tag &lt;q&gt; basicamente adicionas áspas para o texto<q>Maldito homem que acredita no homem</q></p>
+            <p>segundo Renato cariani em seu vídeo</p>
+            <Blockquote>
+                O erro do homem é amar de mais
+            </Blockquote>
+            <h2>Abreviações</h2>
+                <p><abbr title="Phantom dance">pd</abbr></p>
+                <p><abbr title="death dance">dd</abbr></p>
+            <h2>texto invertido</h2>
+                <p><bdo dir="ltr">Posso dar GG?</bdo></p>
+                <p><bdo dir="rtl">Posso dar GG?</bdo></p>
+                <dl> <!--Lista de definição dl -->
+                    <dt>Termo</dt>
+                    <dd>descrição</dd>
+                </dl>
+                <source src="(colocar o áudio)" type="audio/mpeg">
+                <source src="(colocar o áudio)" type="audio/ogg">
+                <source src="(colocar o áudio)" type="(tipo do audio EX:aAudio/wav)">
+            <p>exemplo de código funcional envolvendo áudio</p>
+            <audio preload="metadata" autoplay controls>
+                <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+                <source src="midia/guanacast-33.mp3" type="audio/ogg">
+                <source src="midia/guanacast-33.mp3" type="audio/wav">
+                <p>infelizmente seu navegador não consegue reproduzir.<a href="midia/guanacast-33.mp3">clique aqui para baixar o arquivo mp3</a></p>
+            </audio>
+            <p>ao usar a tag &lt;font&gt; podemos encurtar uma sequência de código inteira em apenas uma linha</p>
+            <p>lembrando que a ordem é a seguinte font(font-style)--->(font-weight)-->(font-size)--->(font-family)</p>
+            <!--exemplo font: italic bolder 3em 'Work sans', sans-serif;-->
+    </body>
+</html>

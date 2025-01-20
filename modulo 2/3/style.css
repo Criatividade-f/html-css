@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#principal {
+    background-color: blue;
+}
+
+#principal:hover {
+    background-color: aquamarine;
+}
+
+.paragrafo {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.paragrafo:hover {
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.escondido {
+    display: none;
+}
+
+div:hover > .escondido {
+    display: block;
+    color: green;
+    background-color: indigo;
+}
+
+.link__lista {
+    text-decoration: underline;
+    color: rgb(94, 24, 255);
+}
+
+.link__lista:visited {
+    color: aquamarine;
+}
+
+.link__lista:hover {
+    color: saddlebrown;
+}
+
+.link__lista:active {
+    color: dimgrey;
+}
+
+.link__lista::after {
+    content: "{link}";
+    color: black;
+}

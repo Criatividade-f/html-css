@@ -1,0 +1,51 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Snow';
+    src: url('fontes/Snow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-image: linear-gradient(-45deg, #05147D, #3A379E, #0B42FF, #4796C4);
+    background-attachment: fixed;
+}
+
+#Titulo {
+    font-family: 'Snow';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 3em;
+    text-align: center;
+    color: white;
+}
+
+.container__paragrafo__principal {
+
+    display: inline-block;
+    padding: 1em;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.432);
+    border-radius: 1em;
+    text-align: center;
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    margin-top: 4em;
+    font-size: 20px;
+}
+
+.principal {
+    margin: 10em;
+}
+
+div:hover > blockquote {
+    color: rgb(74, 170, 248);
+    display: block;
+}
+
+blockquote {
+    display: none;
+}
+
+.secundario {
+    background-image: linear-gradient(-45deg, #6A1EB6, #5D2E8B, #7000E0);
+}
