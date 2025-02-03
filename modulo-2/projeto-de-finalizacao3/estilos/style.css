@@ -60,8 +60,11 @@ section {
 }
 
 .container_imagem {
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.637);
     background-color: rgb(58, 58, 58);
     color: white;
+    background-attachment: fixed;
 }
 
 .paragrafo_imagem {
@@ -76,13 +79,11 @@ section > p {
 }
 
 #img01 {
-    background-size: cover;
     background-image: url('../imagens/background001.jpg');
     background-position: right center;
 }
 
 #img02 {
-    background-size: cover;
     background-image: url(../imagens/background002.jpg);
 }
 
