@@ -43,6 +43,20 @@
                 background-color: lightgray;
             }
 
+            .pop {
+                width: 80px;
+            }
+
+            tbody > tr:nth-child(2n) {
+                background-color: lightgray;
+            }
+
+            thead > tr > th {
+                position: sticky;
+                top: -1px;
+                background-color: rgb(80, 79, 79);
+            }
+
         </style>
     </head>
     <body>
@@ -51,8 +65,8 @@
         <table>
             <caption>População das Unidades Federativas</caption>
             <thead>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col" class="estado">Estado</th>
+                <th scope="col" class="pop">População</th>
             </thead>
             <tbody>
                 <tr>
@@ -68,10 +82,111 @@
                     <td>Rio de Janeiro</td>
                     <td class="num">17.264.943</td>
                 </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td>14.016.906</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td>11.824.665</td>
+                </tr>
+                <tr>
+                    <td>Rio Grande Do Sul</td>
+                    <td>11.229.915</td>
+                </tr>
+                <tr>
+                    <td>Pernambuco</td> 
+                    <td>9.539.029</td>
+                </tr>
+                <tr>
+                    <td>Ceará</td>
+                    <td>9.233.656</td>
+                </tr>
+                <tr>
+                    <td>Pará</td>
+                    <td>8.664.306</td>
+                </tr>
+                <tr>
+                    <td>Santa Catarina</td>
+                    <td>8.058.447</td>
+                </tr>
+                <tr>
+                    <td>Goiás</td>
+                    <td>7.350.483</td>
+                </tr>
+                <tr>
+                    <td>Maranhão</td>
+                    <td>7.010.960</td>
+                </tr>
+                <tr>
+                    <td>Amazonas</td>
+                    <td>4.281.209</td>
+                </tr>
+                <tr>
+                    <td>Paraíba</td>
+                    <td>4.145.040</td>
+                </tr>
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="num">45.919.049</td>
+                </tr>
+
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num">21.168.791</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">17.264.943</td>
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td>14.016.906</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td>11.824.665</td>
+                </tr>
+                <tr>
+                    <td>Rio Grande Do Sul</td>
+                    <td>11.229.915</td>
+                </tr>
+                <tr>
+                    <td>Pernambuco</td> 
+                    <td>9.539.029</td>
+                </tr>
+                <tr>
+                    <td>Ceará</td>
+                    <td>9.233.656</td>
+                </tr>
+                <tr>
+                    <td>Pará</td>
+                    <td>8.664.306</td>
+                </tr>
+                <tr>
+                    <td>Santa Catarina</td>
+                    <td>8.058.447</td>
+                </tr>
+                <tr>
+                    <td>Goiás</td>
+                    <td>7.350.483</td>
+                </tr>
+                <tr>
+                    <td>Maranhão</td>
+                    <td>7.010.960</td>
+                </tr>
+                <tr>
+                    <td>Amazonas</td>
+                    <td>4.281.209</td>
+                </tr>
+                <tr>
+                    <td>Paraíba</td>
+                    <td>4.145.040</td>
+                </tr>
             </tbody>
             <tfoot>
                 <tr>
-                    <th>Total de Habitantes</th>
+                    <th scope="row">Total de Habitantes</th>
                     <td class="num">0000</td>
                 </tr>
 
